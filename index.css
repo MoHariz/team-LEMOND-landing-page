@@ -64,6 +64,8 @@ p, .mission-paragraph{
 /* mission content */
 .mission {
     margin-top: 5%;
+    display: inline-block;
+    position: relative;
 }
 
 .mission-header {
@@ -72,7 +74,7 @@ p, .mission-paragraph{
 
 .mission-content {
     /* position: absolute; */
-    width: 50%;
+    width: 65%;
     height: 250.5px;
     background-color: white;
     z-index: 2;
@@ -80,14 +82,15 @@ p, .mission-paragraph{
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 2%;
+    float: left;
 }
 
 .mission-image {
     width: 306px;
     height: 214px;
-    /* position: absolute; */
+    right: 5px;
+    position: absolute;
     z-index: 1;
-    margin-left: 63%;
     margin-top: 3%;
 }
 
