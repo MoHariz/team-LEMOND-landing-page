@@ -65,9 +65,10 @@ p, .mission-paragraph{
 
 /* mission content */
 .mission {
-    margin-top: 5%;
+    margin-top: 3%;
     display: inline-block;
     position: relative;
+    margin-bottom: 3%;
 }
 
 .mission-header {
@@ -88,12 +89,13 @@ p, .mission-paragraph{
 }
 
 .mission-image {
-    width: 306px;
-    height: 214px;
-    right: 5px;
+    width: 356px;
+    height: 250px;
+    right: 15px;
     position: absolute;
     z-index: 1;
     margin-top: 3%;
+    top: -26px;
 }
 
 /* impact content */
