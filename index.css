@@ -123,6 +123,13 @@ p, .mission-paragraph{
     margin-right: 3%;
 }
 
+.impact-imgs {
+    width: 62px;
+    height: 75px;
+    margin: auto;
+    display: block;
+}
+
 /* partners content */
 .partners {
     margin-bottom: 4%;
