@@ -175,6 +175,7 @@ p, .mission-paragraph{
 
 .partners-header {
     margin-left: 10%;
+    font-size: 24px;
 }
 
 .partners-container {
@@ -221,6 +222,7 @@ p, .mission-paragraph{
     display: inline-block;
     width: 24%;
     padding-top: 20px;
+    font-size: 16px;
 }
 
 .image-cropper {
@@ -252,6 +254,6 @@ footer {
     padding-top: 7%;
     padding-bottom: 2%;
     text-align: center;
-    background-color: black;
+    background-color: #363636;
     color: rgba(255, 255, 255, 0.74);
 }
