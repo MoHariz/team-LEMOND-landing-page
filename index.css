@@ -82,6 +82,7 @@ header span {
     padding-left: 10%;
     padding-right: 10%;
     color:#363636;
+    font-size: 24px;
 }
 
 p, .mission-paragraph{
@@ -121,6 +122,7 @@ p, .mission-paragraph{
 
 .mission-paragraph {
     margin-right: 20%;
+    font-size: 24px;
 }
 
 .mission-image {
@@ -218,6 +220,7 @@ p, .mission-paragraph{
 .team-column {
     display: inline-block;
     width: 24%;
+    padding-top: 20px;
 }
 
 .image-cropper {
