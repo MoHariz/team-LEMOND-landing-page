@@ -43,6 +43,7 @@ header li {
 
 header nav {
     float: right;
+    font-size: 18px;
 }
 
 header li a {
@@ -50,12 +51,15 @@ header li a {
 }
 
 header span {
-    margin-right: 33%;
+    margin-right: 50%;
+    font-size: 20px;
+    
 }
 
 /* intro content */
 .intro, h2 {
     font-family: Lato, sans-serif;
+    font-size: 36px;
 }
 
 .intro {
@@ -65,7 +69,7 @@ header span {
 }
 
 .intro h1 {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -77,6 +81,7 @@ header span {
     margin-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
+    color:#363636;
 }
 
 p, .mission-paragraph{
@@ -101,13 +106,14 @@ p, .mission-paragraph{
 
 .mission-header {
     color: #e16f5a;
+    font-size: 36px;
 }
 
 .mission-content {
-    width: 65%;
+    width: 50%;
     height: 250.5px;
     background-color: white;
-    margin-left: 6%;
+    margin-left: 10%;
     padding-left: 4%;
     padding-top: 2%;
     float: left;
@@ -118,20 +124,21 @@ p, .mission-paragraph{
 }
 
 .mission-image {
-    width: 356px;
-    height: 250px;
-    right: 15px;
+    width: 500px;
+    height: auto;
+    right: 200px;
     position: absolute;
     margin-top: 4%;
-    top: -26px;
+    top: -90px;
 }
 
 /* impact content */
 #impact {
     background-color: #89b7b9;
     color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 24px;
 }
 
 .impact-content {
@@ -152,8 +159,8 @@ p, .mission-paragraph{
 }
 
 .impact-imgs {
-    width: 62px;
-    height: 75px;
+    width: 80px;
+    height: auto;
     margin: auto;
     display: block;
 }
@@ -199,7 +206,9 @@ p, .mission-paragraph{
     color: white;
     background-color: #d57867;
     padding-top: 3%;
+    padding-left: 15%;
     padding-bottom: 4%;
+    padding-right: 15%;
 }
 
 .team-container {
@@ -212,12 +221,12 @@ p, .mission-paragraph{
 }
 
 .image-cropper {
-	display: block;
-    width: 100px;
-    height: 100px;
+    display: block;
+    width: 180px;
+    height: 180px;
     position: relative;
     overflow: hidden;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .team-image {
