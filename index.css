@@ -11,6 +11,11 @@ html, body {
     width: 10%;
 }
 
+.section-header, .team-name-header {
+    text-align: center;
+}
+
+
 /* navbar content */
 header {
     background-color: #155777;
@@ -52,6 +57,12 @@ body > div.intro > div > figure > img {
     width: 100%;
 }
 
+body > div.intro > div > div {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 body > div.intro > div {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -85,6 +96,10 @@ body > div.intro > div {
     margin-bottom: auto;
 }
 
+.cover-and-sample-image {
+    background-color: #e5e5e5e5;
+}
+
 .intro-image {
     width: 100%;
     height: 525px;
@@ -110,10 +125,6 @@ body > div.intro > div {
     padding-bottom: 6%;
 }
 
-#mission > h2 {
-    text-align: center;
-}
-
 #mission > hr {
     background-color: #cb3f16;
 }
@@ -121,6 +132,7 @@ body > div.intro > div {
 .mission-image, .mission-image img {
     margin: 0;
     padding: 0;
+    border-radius: 5px;
 }
 
 .mission-content {
@@ -168,14 +180,16 @@ body > div.intro > div {
     margin-right: 25%;
 }
 
-#project-features > h2 {
-    text-align: center;
-}
-
 #project-features > div {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
+}
+
+#project-features > div > div {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .feature-image {
