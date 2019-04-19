@@ -1,38 +1,35 @@
-body {
+html, body {
     width: 100%;
     height: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    background-color: #f5f5f5;
+    margin: 0px;
+    margin: 0px;
+    overflow-x: hidden;
 }
 
-h2 {
-    margin-bottom: 3%;
+.line {
+    border-width: 10px;
+    width: 10%;
 }
 
 /* navbar content */
 header {
-    background-color: white;
+    background-color: #155777;
     position: fixed;
+    width: 100%;
     top: 0;
-    left: 0;
-    right: 0;
     height: 50px;
-    display: flex;
     align-items: center;
     font-family: Lato, sans-serif;
     font-weight: bold;
-    padding-left: 10%;
     z-index: 1;
 }
 
 header * {
-    color: #e16f5a;
+    color: white;
     display: inline;
 }
 
 header li {
-    margin: 20px;
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -41,11 +38,8 @@ header li {
     letter-spacing: normal;
 }
 
-header nav {
-    float: right;
-}
-
 header li a {
+    color: white;
     text-decoration: none;
 }
 
@@ -54,14 +48,25 @@ header span {
 }
 
 /* intro content */
+body > div.intro > div > figure > img {
+    width: 100%;
+}
+
+body > div.intro > div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .intro, h2 {
     font-family: Lato, sans-serif;
 }
 
 .intro {
-    text-align: center;
-    margin-top: 10%;
+    margin-top: 50px;
     color: #363636;
+    justify-content: center;
 }
 
 .intro h1 {
@@ -73,90 +78,114 @@ header span {
     letter-spacing: normal;
 }
 
-.intro p {
-    margin-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-p, .mission-paragraph{
+.mission-paragraph{
     font-family: Alice, serif;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .intro-image {
     width: 100%;
     height: 525px;
-
     object-fit: cover;
     object-position: 100% 0;
 }
 
-/* mission content */
-#mission {
-    margin-top: 3%;
-    display: inline-block;
+.sample-image {
     position: relative;
-    margin-bottom: 3%;
+    top: -225px;
 }
 
-.mission-header {
-    color: #e16f5a;
+.sample-image > img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+/* mission content */
+#mission {
+    position: relative;
+    background-color: #E5E5E5;
+    padding-bottom: 6%;
+}
+
+#mission > h2 {
+    text-align: center;
+}
+
+#mission > hr {
+    background-color: #cb3f16;
+}
+
+.mission-image, .mission-image img {
+    margin: 0;
+    padding: 0;
 }
 
 .mission-content {
-    width: 65%;
-    height: 250.5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: white;
-    margin-left: 6%;
-    padding-left: 4%;
-    padding-top: 2%;
-    float: left;
+    padding: 15px;
 }
 
-.mission-paragraph {
-    margin-right: 20%;
+
+/* project overview content */
+#project-overview > h2 {
+    text-align: center;
 }
 
-.mission-image {
-    width: 356px;
-    height: 250px;
-    right: 15px;
-    position: absolute;
-    margin-top: 4%;
-    top: -26px;
+#project-overview > hr {
+    background-color: #bbc437;
 }
 
-/* impact content */
-#impact {
+#project-overview > div.row {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+/* project features content */
+#project-features {
     background-color: #89b7b9;
     color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 
-.impact-content {
-    padding-left: 10%;
-    padding-right: 10%;
+#project-features > hr {
+    background-color: #febc04;
 }
 
-.impact-container {
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
+#project-features > div:nth-child(3) {
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.impact-column {
-    display: inline-block;
-    margin-right: 3%;
+#project-features > h2 {
+    text-align: center;
 }
 
-.impact-imgs {
-    width: 62px;
-    height: 75px;
-    margin: auto;
-    display: block;
+#project-features > div {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
 }
+
+.feature-image {
+    width: 100%;
+}
+
+.feature-icon {
+    width: 75px;
+}
+
 
 /* partners content */
 #partners {
