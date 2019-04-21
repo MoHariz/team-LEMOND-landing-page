@@ -6,9 +6,10 @@
     <meta name="author" content="your name">
     <meta name="description" content="description of your page">
     <title>Team LEMOND</title>
-    <link href="https://fonts.googleapis.com/css?family=Alice|Lato" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:700,900" rel="stylesheet"> 
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -21,13 +22,19 @@
                     <a class="nav-item" href="#mission">Mission</a>
                 </li>
                 <li>
-                    <a class="nav-item" href="#impact">Impact</a>
+                    <a class="nav-item" href="#project-overview">Overview</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#project-features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#technology-architecture">Architecture</a>
                 </li>
                 <li>
                     <a class="nav-item" href="#partners">Partners</a>
                 </li>
                 <li>
-                    <a class="nav-item" href="#team">About Us</a>
+                    <a class="nav-item" href="#team">Team</a>
                 </li>
             </ul>
         </nav>
@@ -57,13 +64,12 @@
     </div>
     
      
-
     <!-- mission section -->
     <div id="mission">
         <h6 class="team-name-header">Team LEMOND</h6>
         <h2 class="section-header">Our Mission</h2> 
         <hr class="line">       
-        <div class="mission-content">
+        <div class="mission-content" data-aos="fade-up">
             <div class="row">
                 <div class="d-flex">
                     <figure class="mission-image col-lg-6">
@@ -84,8 +90,12 @@
         <h6 class="team-name-header">Team LEMOND</h6>
         <h2 class="section-header">Project Overview</h2>
         <hr class="line"> 
-        <div class="row">
-            <h4>Problem Statement</h4>
+        <div class="row" data-aos="fade-up">
+            <div class="row">
+                <img src="img/dot.svg" alt="dot icon">
+                <h4>Problem Statement</h4>
+            </div>
+            
             <div class="overview">
                 With a larger number of Seattle’s population becoming older, we noticed that older people are sometimes:
                 <br>
@@ -96,49 +106,58 @@
                 </ul>
             </div>            
         </div>
-        <div class="row">
-            <h4>Target User Groups/Audience</h4>
-            <div class="overview row">
-                <div class="col-6">
-                    <figure>
-                        <img src="img/AgeFriendlyBusinessLogo1.png" alt="Age Friendly Business Logo">
-                    </figure>
-                    <div>
-                        <strong>Business owners/ Manager</strong>
-                        <br>
-                        <br>
-                        <strong>Desire:</strong> 
-                        <br>
-                        Seeks to provide positive experiences for customers and employees of all ages.
-                        <br>
-                        <br>
-                        <strong>Pain Points:</strong> 
-                        <br>
-                        Not aware/do not apply Age-Friendly practices to their business.
+        <div class="row" data-aos="fade-up">
+            <div class="row">
+                <img src="img/dot.svg" alt="dot icon">
+                <h4>Target User Groups/Audience</h4>
+            </div>
+            <div class="overview">
+                <div class="row">
+                    <div class="col-6">
+                        <figure>
+                            <img src="img/person_8-512.png" alt="Age Friendly Business Logo">
+                        </figure>
+                        <div>
+                            <strong>Business owners/ Manager</strong>
+                            <br>
+                            <br>
+                            <strong>Desire:</strong> 
+                            <br>
+                            Seeks to provide positive experiences for customers and employees of all ages.
+                            <br>
+                            <br>
+                            <strong>Pain Points:</strong> 
+                            <br>
+                            Not aware/do not apply Age-Friendly practices to their business.
+                        </div>
                     </div>
-                </div>
-                <div class="col-6">
-                    <figure>
-                        <img src="img/AgeFriendlyBusinessLogo1.png" alt="Age Friendly Business Logo">
-                    </figure>
-                    <div>
-                        <strong>City of Seattle</strong> 
-                        <br>
-                        <br>
-                        <strong>Desire:</strong>
-                        <br> 
-                        Seeks to make the community a more age-friendly environment.
-                        <br>
-                        <br>
-                        <strong>Pain point:</strong>  
-                        <br>
-                        Don’t have the manpower and funds to establish a city/system that can record all the information.
+
+                    <div class="col-6">
+                        <figure>
+                            <img src="img/City-of-Seattle-Logo_Black-on-White.png" alt="Age Friendly Business Logo">
+                        </figure>
+                        <div>
+                            <strong>City of Seattle</strong> 
+                            <br>
+                            <br>
+                            <strong>Desire:</strong>
+                            <br> 
+                            Seeks to make the community a more age-friendly environment.
+                            <br>
+                            <br>
+                            <strong>Pain point:</strong>  
+                            <br>
+                            Don’t have the manpower and funds to establish a city/system that can record all the information.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <h4>Our Solution</h4>
+        <div class="row" data-aos="fade-up">
+            <div class="row">
+                <img src="img/dot.svg" alt="dot icon">
+                <h4>Our Solution</h4>
+            </div>
             <div class="overview">
                 In response to this existing problem, we are creating a <strong>business tool website</strong> that <strong>calculates the age-friendly scores</strong> for a business so that business and their managers can recognize what it means to provide age-friendly customer service and to be an age-friendly employer. 
             </div>
@@ -151,15 +170,15 @@
         <h6 class="team-name-header">Team LEMOND</h6>
         <h2 class="section-header">Project Features</h2>
         <hr class="line">
-        <div>
+        <div data-aos="fade-up">
             With a larger number of Seattle’s population becoming older, we are here to create a business tool that helps businesses
             and organization recognize what it means to be an age-friendly employer to make it a more age-friendly work
             environment for all.
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up">
             <figure class="col-6">
-                <img class="feature-image" src="img/sample-image-1.png" alt="An image of one of our product features">
+                <img class="feature-image" src="img/demo-resource.gif" alt="An image of one of our product features">
             </figure>
             <div class="col-6">
                 <img class="feature-icon" src="img/article.png">
@@ -167,9 +186,9 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up">
             <figure class="col-6">
-                <img class="feature-image" src="img/sample-image-1.png" alt="An image of one of our product features">
+                <img class="feature-image" src="img/demo-test.gif" alt="An image of one of our product features">
             </figure>
             <div class="col-6">
                 <img class="feature-icon" src="img/test.png">
@@ -177,9 +196,9 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up">
             <figure class="col-6">
-                <img class="feature-image" src="img/sample-image-1.png" alt="An image of one of our product features">
+                <img class="feature-image" src="img/temp-dashboard.png" alt="An image of one of our product features">
             </figure>
             <div class="col-6">
                 <img class="feature-icon" src="img/dashboard.png">
@@ -189,18 +208,51 @@
     </div>
 
 
+    <!-- technology architecture section -->
+    <div id="technology-architecture">
+        <h6 class="team-name-header">Team LEMOND</h6>
+        <h2 class="section-header">Technology Architecture</h2>
+        <hr class="line">
+        <div class="col">
+            <div data-aos="fade-up">
+                WordPress headless CMS Client renders data through /wp/v2/ endpoint Sends assessment data to server and stores in DB Dashboard reads data and renders into visualization (export as CSV for tableau)
+            </div>
+            <figure class="col" data-aos="fade-up">
+                <img class="technology-architecture-image" src="img/state-diagram.png" alt="An image of one of our product features">
+            </figure>
+        </div>
+    </div>
+
+
     <!-- partners section -->
     <div id="partners">
         <h6 class="team-name-header">Team LEMOND</h6>
         <h2 class="section-header">Our Partners</h2>
-        <div class="partners-container">
-            <div class="partners-column">
-                <img class="partners-image" src="img/City-of-Seattle-Logo_Black-on-White.png">
-                <p><a class="partners-url" href="http://www.seattle.gov/agefriendly">City of Seattle</a></p>
+        <hr class="line">
+        <div class="row" data-aos="fade-up">
+            <div class="col-md-6 row">
+                <figure class="partner-figure col">
+                    <img class="partners-image" src="img/City-of-Seattle-Logo_Black-on-White.png">
+                </figure>
+                <div class="col-7">
+                    <p>
+                        <strong><a class="partners-url" href="http://www.seattle.gov/agefriendly">City of Seattle</a></strong> 
+                        <br>
+                        Seattle's official city government site
+                    </p>
+                </div>
             </div>
-            <div class="partners-column">
-                <img class="partners-image" src="img/iSchoolSymbolOnly_RGB_Purple.png">
-                <p><a class="partners-url" href="https://ischool.uw.edu/">iSchool</a></p>
+            <div class="col-md-6 row">
+                <figure class="partner-figure col">
+                    <img class="partners-image" src="img/iSchoolSymbolOnly_RGB_Purple.png">
+                </figure>
+                <div class="col-7">
+                    <p>
+                        <strong><a class="partners-url" href="https://ischool.uw.edu/">UW iSchool</a></strong>
+                        <br>
+                        The Information School at the University of Washington
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -210,47 +262,57 @@
     <div id="team">
         <h6 class="team-name-header">Team LEMOND</h6>
         <h2 class="section-header">Meet Our Team</h2>
-        <div class="team-container">
-            <div class="team-column">
-                <div class="image-cropper">
-                    <img class="team-image" src="img/Davis-Huynh.jpg">
+        <hr class="line">
+        <div>
+            <div class="row" data-aos="fade-up">
+                <div class="team-member col-6">
+                    <div class="image-cropper">
+                        <img class="team-image" src="img/Davis-Huynh.jpg">
+                    </div>
+                    Davis Huynh
+                    <br>
+                    <span class="role">Front end developer</span>
                 </div>
-                Davis Huynh
-                <br>
-                <span class="role">Front end developer</span>
+                <div class="team-member col-6">
+                    <div class="image-cropper">
+                        <img class="team-image" src="img/Estelle-Jiang.JPG">
+                    </div>
+                    Estelle Jiang
+                    <br>
+                    <span class="role">UI/UX designer</span>
+                </div>
             </div>
-            <div class="team-column">
-                <div class="image-cropper">
-                    <img class="team-image" src="img/Estelle-Jiang.JPG">
+            <div class="row" data-aos="fade-up">
+                <div class="team-member col-6">
+                    <div class="image-cropper">
+                        <img class="team-image" src="img/Liuyang-Fu.jpg">
+                    </div>
+                    Liuyang Fu
+                    <br>
+                    <span class="role">Back end developer</span>
                 </div>
-                Estelle Jiang
-                <br>
-                <span class="role">UI/UX designer</span>
-            </div>
-            <div class="team-column">
-                <div class="image-cropper">
-                    <img class="team-image" src="img/Liuyang-Fu.jpg">
+                <div class="team-member col-6">
+                    <div class="image-cropper">
+                        <img class="team-image" src="img/Muhammad-Hariz.jpg">
+                    </div>
+                    Muhammad Hariz
+                    <br>
+                    <span class="role">Front end developer</span>
                 </div>
-                Liuyang Fu
-                <br>
-                <span class="role">Back end developer</span>
-            </div>
-            <div class="team-column">
-                <div class="image-cropper">
-                    <img class="team-image" src="img/Muhammad-Hariz.jpg">
-                </div>
-                Muhammad Hariz
-                <br>
-                <span class="role">Front end developer</span>
             </div>
         </div>
     </div>
 
     <footer>
-        Made by Team LEMOND 2019
+        Made by Team LEMOND 2019 &#169;
     </footer>
 
+    
+    <!-- scroll animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="index.js"></script>
 </body>
-
 </html>
