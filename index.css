@@ -163,6 +163,10 @@ body > div.intro > div {
 
 
 /* project overview content */
+#project-overview {
+    margin-bottom: 40px;
+}
+
 #project-overview > h2 {
     text-align: center;
 }
@@ -184,7 +188,15 @@ body > div.intro > div {
     margin-left: 18px;
 }
 
-#project-overview > div > div.overview > div > div > figure > img {
+.overview-div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.overview-col-image {
     width: 40%;
 }
 
@@ -223,7 +235,7 @@ body > div.intro > div {
 .overview {
     border-left: 3px solid black;
     padding-left: 7%;
-    margin-left: 1.5%;
+    margin-left: 2%;
 }
 
 .feature-image {
