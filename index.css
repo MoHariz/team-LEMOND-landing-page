@@ -1,38 +1,57 @@
-body {
+html, body {
     width: 100%;
     height: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    background-color: #f5f5f5;
+    margin: 0;
+    /* overflow-x: hidden; */
 }
 
-h2 {
-    margin-bottom: 3%;
+body {
+    font-family: Lato, sans-serif;
 }
+
+.line {
+    border-width: 10px;
+    width: 10%;
+}
+
+.section-header, .team-name-header {
+    text-align: center;
+}
+
+.section-header {
+    font-weight: 700;
+}
+
 
 /* navbar content */
 header {
-    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    background-color: #155777;
     position: fixed;
+    width: 100%;
     top: 0;
-    left: 0;
-    right: 0;
     height: 50px;
-    display: flex;
-    align-items: center;
-    font-family: Lato, sans-serif;
     font-weight: bold;
-    padding-left: 10%;
     z-index: 1;
 }
 
 header * {
-    color: #e16f5a;
+    color: white;
     display: inline;
 }
 
-header li {
-    margin: 20px;
+body > header > nav > span {
+    font-weight: 900;
+    margin-left: 5%;
+}
+
+body > header > nav > ul {
+    float: right;
+    font-weight: 600;
+    margin-right: 5%;
+}
+
+header > li {
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -41,15 +60,21 @@ header li {
     letter-spacing: normal;
 }
 
+<<<<<<< HEAD
 header nav {
     float: right;
     font-size: 18px;
 }
 
+=======
+>>>>>>> development
 header li a {
+    color: white;
     text-decoration: none;
+    margin-left: 10px;
 }
 
+<<<<<<< HEAD
 header span {
     margin-right: 50%;
     font-size: 20px;
@@ -60,51 +85,96 @@ header span {
 .intro, h2 {
     font-family: Lato, sans-serif;
     font-size: 36px;
+=======
+
+/* intro content */
+body > div.intro > div > figure > img {
+    width: 100%;
+}
+
+body > div.intro > div > div {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body > div.intro > div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+>>>>>>> development
 }
 
 .intro {
-    text-align: center;
-    margin-top: 10%;
+    margin-top: 50px;
     color: #363636;
+    justify-content: center;
 }
 
 .intro h1 {
+<<<<<<< HEAD
     font-size: 48px;
     font-weight: 900;
+=======
+    font-size: 32px;
+    font-weight: 700;
+>>>>>>> development
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
 
+<<<<<<< HEAD
 .intro p {
     margin-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
     color:#363636;
     font-size: 24px;
+=======
+.mission-paragraph{
+    margin-top: auto;
+    margin-bottom: auto;
+>>>>>>> development
 }
 
-p, .mission-paragraph{
-    font-family: Alice, serif;
+.cover-and-sample-image {
+    background-color: #f5f5f5;
 }
 
 .intro-image {
     width: 100%;
     height: 525px;
-
     object-fit: cover;
     object-position: 100% 0;
 }
 
-/* mission content */
-#mission {
-    margin-top: 3%;
-    display: inline-block;
+.sample-image {
     position: relative;
-    margin-bottom: 3%;
+    top: -225px;
 }
 
+.sample-image > img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+/* mission content */
+#mission {
+    position: relative;
+    background-color: #f5f5f5;
+    padding-bottom: 6%;
+    top: -20px;
+}
+
+#mission > hr {
+    background-color: #cb3f16;
+}
+
+<<<<<<< HEAD
 .mission-header {
     color: #e16f5a;
     font-size: 36px;
@@ -132,81 +202,207 @@ p, .mission-paragraph{
     position: absolute;
     margin-top: 4%;
     top: -90px;
+=======
+.mission-image, .mission-image img {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
 }
 
-/* impact content */
-#impact {
+.mission-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 4px 12px -3px #495057a6, inset 0 0.5px 0 0 rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+}
+
+#mission > div > div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* project overview content */
+#project-overview > h2 {
+    text-align: center;
+}
+
+#project-overview > hr {
+    background-color: #bbc437;
+}
+
+#project-overview > div.row {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#project-overview > div > div.row > h4 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 18px;
+>>>>>>> development
+}
+
+#project-overview > div > div.overview > div > div > figure > img {
+    width: 40%;
+}
+
+
+/* project features content */
+#project-features {
     background-color: #89b7b9;
     color: white;
+<<<<<<< HEAD
     padding-top: 4%;
     padding-bottom: 4%;
     font-size: 24px;
+=======
+    padding-top: 20px;
+    padding-bottom: 20px;
+>>>>>>> development
 }
 
-.impact-content {
-    padding-left: 10%;
-    padding-right: 10%;
+#project-features > hr {
+    background-color: #febc04;
 }
 
-.impact-container {
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
+#project-features > div:nth-child(4) {
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.impact-column {
-    display: inline-block;
-    margin-right: 3%;
+#project-features > div {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
 }
 
+<<<<<<< HEAD
 .impact-imgs {
     width: 80px;
     height: auto;
     margin: auto;
     display: block;
+=======
+#project-features > div > div {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+>>>>>>> development
 }
 
-/* partners content */
-#partners {
-    margin-bottom: 4%;
-    margin-top: 4%;
+.overview {
+    border-left: 3px solid black;
+    padding-left: 7%;
+    margin-left: 1.5%;
 }
 
+<<<<<<< HEAD
 .partners-header {
     margin-left: 10%;
     font-size: 24px;
+=======
+.feature-image {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px -3px #495057a6, inset 0 0.5px 0 0 rgba(255, 255, 255, 0.75);
+>>>>>>> development
 }
 
-.partners-container {
-    text-align: center;
-    /* display: flex; */
+.feature-icon {
+    width: 75px;
 }
 
-.partners-column {
-    display: inline-block;
-    width: 30%;
+
+/* technology architecture section */
+#technology-architecture {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#technology-architecture > hr {
+    background-color: #155777;
+    margin-bottom: 30px;
+}
+
+.technology-architecture-image {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px -3px #495057a6, inset 0 0.5px 0 0 rgba(255, 255, 255, 0.75);
+}
+
+#technology-architecture > div > div {
     text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#technology-architecture > div > figure {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* partners content */
+#partners {
+    background-color: #da7f64;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#partners > hr {
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#partners > div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .partners-image {
-    width: 30%;
+    width: 80%;
     height: auto;
-}
-
-.partners-column, .partners-image {
-    margin-left: auto;
-	margin-right: auto;
 }
 
 .partners-url {
     text-decoration: none;
+    color: black;
 }
+
+#partners > div > div {
+    margin: auto;
+}
+
+#partners > div > div > div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#partners > div > div > figure, #partners > div > div > div {
+    padding: 0;
+}
+
 
 /* team section */
 #team {
     text-align: center;
     color: white;
+<<<<<<< HEAD
     background-color: #d57867;
     padding-top: 3%;
     padding-left: 15%;
@@ -232,16 +428,38 @@ p, .mission-paragraph{
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+=======
+    background-color: #595959;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#team > hr {
+    background-color: white;
+}
+
+#team > div > div {
+    margin-left: 20%;
+    margin-right: 20%;
+>>>>>>> development
 }
 
 .team-image {
     height: auto;
     width: 100%;
+    border-radius: 50%;
 }
 
 .image-cropper, .team-image {
     margin-left: auto;
 	margin-right: auto;
+}
+
+#team > div > div > div {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .role {
