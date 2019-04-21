@@ -59,32 +59,12 @@ header > li {
     letter-spacing: normal;
 }
 
-<<<<<<< HEAD
-header nav {
-    float: right;
-    font-size: 18px;
-}
-
-=======
->>>>>>> development
 header li a {
     color: white;
     text-decoration: none;
     margin-left: 10px;
 }
 
-<<<<<<< HEAD
-header span {
-    margin-right: 50%;
-    font-size: 20px;
-    
-}
-
-/* intro content */
-.intro, h2 {
-    font-family: Lato, sans-serif;
-    font-size: 36px;
-=======
 
 /* intro content */
 body > div.intro > div > figure > img {
@@ -102,7 +82,6 @@ body > div.intro > div {
     padding-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
->>>>>>> development
 }
 
 .intro {
@@ -112,31 +91,17 @@ body > div.intro > div {
 }
 
 .intro h1 {
-<<<<<<< HEAD
-    font-size: 48px;
-    font-weight: 900;
-=======
     font-size: 32px;
     font-weight: 700;
->>>>>>> development
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
 
-<<<<<<< HEAD
-.intro p {
-    margin-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    color:#363636;
-    font-size: 24px;
-=======
 .mission-paragraph{
     margin-top: auto;
     margin-bottom: auto;
->>>>>>> development
 }
 
 .cover-and-sample-image {
@@ -173,35 +138,6 @@ body > div.intro > div {
     background-color: #cb3f16;
 }
 
-<<<<<<< HEAD
-.mission-header {
-    color: #e16f5a;
-    font-size: 36px;
-}
-
-.mission-content {
-    width: 50%;
-    height: 250.5px;
-    background-color: white;
-    margin-left: 10%;
-    padding-left: 4%;
-    padding-top: 2%;
-    float: left;
-}
-
-.mission-paragraph {
-    margin-right: 20%;
-    font-size: 24px;
-}
-
-.mission-image {
-    width: 500px;
-    height: auto;
-    right: 200px;
-    position: absolute;
-    margin-top: 4%;
-    top: -90px;
-=======
 .mission-image, .mission-image img {
     margin: 0;
     padding: 0;
@@ -246,7 +182,6 @@ body > div.intro > div {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 18px;
->>>>>>> development
 }
 
 #project-overview > div > div.overview > div > div > figure > img {
@@ -258,14 +193,8 @@ body > div.intro > div {
 #project-features {
     background-color: #89b7b9;
     color: white;
-<<<<<<< HEAD
-    padding-top: 4%;
-    padding-bottom: 4%;
-    font-size: 24px;
-=======
     padding-top: 20px;
     padding-bottom: 20px;
->>>>>>> development
 }
 
 #project-features > hr {
@@ -285,18 +214,10 @@ body > div.intro > div {
     margin-top: 5%;
 }
 
-<<<<<<< HEAD
-.impact-imgs {
-    width: 80px;
-    height: auto;
-    margin: auto;
-    display: block;
-=======
 #project-features > div > div {
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
->>>>>>> development
 }
 
 .overview {
@@ -305,16 +226,10 @@ body > div.intro > div {
     margin-left: 1.5%;
 }
 
-<<<<<<< HEAD
-.partners-header {
-    margin-left: 10%;
-    font-size: 24px;
-=======
 .feature-image {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0px 4px 12px -3px #495057a6, inset 0 0.5px 0 0 rgba(255, 255, 255, 0.75);
->>>>>>> development
 }
 
 .feature-icon {
@@ -401,33 +316,6 @@ body > div.intro > div {
 #team {
     text-align: center;
     color: white;
-<<<<<<< HEAD
-    background-color: #d57867;
-    padding-top: 3%;
-    padding-left: 15%;
-    padding-bottom: 4%;
-    padding-right: 15%;
-}
-
-.team-container {
-    display: flex;
-}
-
-.team-column {
-    display: inline-block;
-    width: 24%;
-    padding-top: 20px;
-    font-size: 16px;
-}
-
-.image-cropper {
-    display: block;
-    width: 180px;
-    height: 180px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-=======
     background-color: #595959;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -440,7 +328,6 @@ body > div.intro > div {
 #team > div > div {
     margin-left: 20%;
     margin-right: 20%;
->>>>>>> development
 }
 
 .team-image {
