@@ -4,6 +4,12 @@ html, body {
     margin: 0;
 }
 
+@media (min-width: 991px) {
+    html, body {
+        font-size: 24px;
+    }
+}
+
 body {
     font-family: Lato, sans-serif;
 }
@@ -31,6 +37,7 @@ header {
     top: 0;
     height: 50px;
     font-weight: bold;
+    font-size: 12px;
     z-index: 1;
 }
 
@@ -78,10 +85,9 @@ body > div.intro > div > div {
 }
 
 body > div.intro > div {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .intro {
@@ -118,11 +124,10 @@ body > div.intro > div {
 .sample-image {
     position: relative;
     top: -225px;
-}
-
-.sample-image > img {
     width: 50%;
-    margin-left: 25%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 
@@ -165,6 +170,8 @@ body > div.intro > div {
 /* project overview content */
 #project-overview {
     margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #project-overview > h2 {
@@ -200,13 +207,19 @@ body > div.intro > div {
     width: 40%;
 }
 
+@media (max-width: 991px) {
+    #project-overview > div:nth-child(5) > div:nth-child(2) > div > div > div:nth-child(1) {
+        margin-bottom: 80px;
+    }
+}
+
 
 /* project features content */
 #project-features {
     background-color: #89b7b9;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #project-features > hr {
@@ -252,13 +265,13 @@ body > div.intro > div {
 /* technology architecture section */
 #technology-architecture {
     background-color: #f5f5f5;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #technology-architecture > hr {
     background-color: #155777;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .technology-architecture-image {
@@ -276,7 +289,6 @@ body > div.intro > div {
 }
 
 #technology-architecture > div > figure {
-    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -284,14 +296,15 @@ body > div.intro > div {
 
 /* partners content */
 #partners {
+    color: white;
     background-color: #da7f64;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 120px;
 }
 
 #partners > hr {
     background-color: white;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 #partners > div {
@@ -307,7 +320,7 @@ body > div.intro > div {
 
 .partners-url {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #partners > div > div {
@@ -329,8 +342,8 @@ body > div.intro > div {
     text-align: center;
     color: white;
     background-color: #595959;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #team > hr {
