@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="author" content="your name">
     <meta name="description" content="description of your page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team LEMOND</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
@@ -44,10 +45,10 @@
     <!-- intro section -->
     <div class="intro">
         <div class="row">
-            <figure class="col-2">
-                <img src="img/AgeFriendlyBusinessLogo1.png" alt="Age Friendly Business Logo">
+            <figure class="col-5 col-sm-3 col-md-2">
+                <img class="afb-logo" src="img/AgeFriendlyBusinessLogo1.png" alt="Age Friendly Business Logo">
             </figure>
-            <div class="col-10">
+            <div class="col-12 col-sm-12 col-md-10">
                 <h1>Age Friendly Business</h1>
                 <p>"Learn, Self-Reflect, and Change your business’ work environment for all ages."</p>
             </div> 
@@ -55,12 +56,14 @@
     </div>
 
     <div class="cover-and-sample-image">
-        <figure class="cover-image">
+        <div class="row">
             <img class="intro-image" src="img/cover-image.png" alt="Age Friendly Landing page cover image">
-        </figure>
-        <figure class="sample-image">
-            <img src="img/sample-image-1.png" alt="Sample image of the Landing Page">
-        </figure>
+        </div>
+        <div class="row">
+            <!-- <figure class="sample-image"> -->
+                <img class="sample-image" src="img/sample-image-1.png" alt="Sample image of the Landing Page">
+            <!-- </figure> -->
+        </div>
     </div>
     
      
@@ -71,16 +74,14 @@
         <hr class="line">       
         <div class="mission-content" data-aos="fade-up">
             <div class="row">
-                <div class="d-flex">
-                    <figure class="mission-image col-lg-6">
-                        <img class="col" src="img/older-businesswoman-meeting-800x533_c.jpg" alt="Business woman in a meeting">
-                    </figure>
-                    <div class="mission-paragraph col-lg-6">
-                        With our passion for social impact, our mission is to empower older, more experienced workers and promote age-friendly practices
-                        so they can provide age-friendly customer service and become age-friendly employers.   
-                    </div>
-                </div>  
-            </div>     
+                <figure class="mission-image col-sm-12 col-lg-6">
+                    <img class="col" src="img/older-businesswoman-meeting-800x533_c.jpg" alt="Business woman in a meeting">
+                </figure>
+                <div class="mission-paragraph col-sm-12 col-lg-6">
+                    With our passion for social impact, our mission is to empower older, more experienced workers and promote age-friendly practices
+                    so they can provide age-friendly customer service and become age-friendly employers.   
+                </div>
+            </div>  
         </div>
     </div>
 
@@ -116,7 +117,7 @@
             <div class="row">
                 <div class="overview">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-sm-12 col-lg-6">
                             <figure>
                                 <img class="overview-col-image" src="img/person_8-512.png" alt="Age Friendly Business Logo">
                             </figure>
@@ -135,7 +136,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-sm-12 col-lg-6">
                             <figure>
                                 <img class="overview-col-image" src="img/City-of-Seattle-Logo_Black-on-White.png" alt="Age Friendly Business Logo">
                             </figure>
@@ -184,30 +185,30 @@
         </div>
 
         <div class="row" data-aos="fade-up">
-            <figure class="col-6">
+            <figure class="col-sm-12 col-lg-6">
                 <img class="feature-image" src="img/demo-resource.gif" alt="An image of one of our product features">
             </figure>
-            <div class="col-6">
+            <div class="col-sm-12 col-lg-6">
                 <img class="feature-icon" src="img/article.png">
                 <p>Related resources for business owners to have a deep understanding about age-friendly.</p>
             </div>
         </div>
 
         <div class="row" data-aos="fade-up">
-            <figure class="col-6">
+            <figure class="col-sm-12 col-lg-6">
                 <img class="feature-image" src="img/demo-test.gif" alt="An image of one of our product features">
             </figure>
-            <div class="col-6">
+            <div class="col-sm-12 col-lg-6">
                 <img class="feature-icon" src="img/test.png">
                 <p>Online assessment testing to get a score about company and review the tips about how to improve.</p>
             </div>
         </div>
 
         <div class="row" data-aos="fade-up">
-            <figure class="col-6">
+            <figure class="col-sm-12 col-lg-6">
                 <img class="feature-image" src="img/temp-dashboard.png" alt="An image of one of our product features">
             </figure>
-            <div class="col-6">
+            <div class="col-sm-12 col-lg-6">
                 <img class="feature-icon" src="img/dashboard.png">
                 <p>Dashboard to track the companies who took the tests and let sponsor know their next step to improve.</p>
             </div>
@@ -224,7 +225,7 @@
             <div data-aos="fade-up">
                 WordPress headless CMS Client renders data through /wp/v2/ endpoint Sends assessment data to server and stores in DB Dashboard reads data and renders into visualization (export as CSV for tableau)
             </div>
-            <figure class="col" data-aos="fade-up">
+            <figure class="col-10" data-aos="fade-up">
                 <img class="technology-architecture-image" src="img/state-diagram.png" alt="An image of one of our product features">
             </figure>
         </div>
