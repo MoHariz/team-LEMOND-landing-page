@@ -39,6 +39,8 @@ header {
     font-weight: bold;
     font-size: 12px;
     z-index: 1;
+    opacity: 0.9;
+    background-image: linear-gradient(#155777, #89b7b9);
 }
 
 header * {
@@ -46,15 +48,22 @@ header * {
     display: inline;
 }
 
-body > header > nav > span {
-    font-weight: 900;
-    margin-left: 5%;
+body > header > nav {
+    width: 100%;
 }
 
-body > header > nav > ul {
+.nav-div {
+    display: block;
+    margin-top: 15px;
+}
+
+.left-nav {
+    margin-left: 50px;
+}
+
+.right-nav {
+    margin-right: 50px;
     float: right;
-    font-weight: 600;
-    margin-right: 5%;
 }
 
 header > li {
@@ -72,8 +81,22 @@ header li a {
     margin-left: 10px;
 }
 
+.active {
+    color: #febc04;
+}
+
 
 /* intro content */
+body > div.intro > div > div > h1 {
+    font-size: 54px;
+}
+
+@media (max-width: 991px) {
+    body > div.intro > div > div > h1 {
+        font-size: 24px;
+    }
+}
+
 body > div.intro > div > figure > img {
     width: 100%;
 }
@@ -91,7 +114,7 @@ body > div.intro > div {
 }
 
 .intro {
-    margin-top: 50px;
+    margin-top: 62px;
     color: #363636;
     justify-content: center;
 }
@@ -161,6 +184,10 @@ body > div.intro > div {
     border-radius: 5px;
 }
 
+.with {
+    font-size: 1.5rem;
+}
+
 #mission > div > div {
     padding-left: 15px;
     padding-right: 15px;
@@ -211,6 +238,10 @@ body > div.intro > div {
     #project-overview > div:nth-child(5) > div:nth-child(2) > div > div > div:nth-child(1) {
         margin-bottom: 80px;
     }
+}
+
+.overview-subheader {
+    font-weight: 700;
 }
 
 
@@ -278,6 +309,7 @@ body > div.intro > div {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0px 4px 12px -3px #495057a6, inset 0 0.5px 0 0 rgba(255, 255, 255, 0.75);
+    margin-top: 50px;
 }
 
 #technology-architecture > div > div {
@@ -350,10 +382,10 @@ body > div.intro > div {
     background-color: white;
 }
 
-#team > div > div {
+/* #team > div > div {
     margin-left: 20%;
     margin-right: 20%;
-}
+} */
 
 .team-image {
     height: auto;
@@ -366,11 +398,14 @@ body > div.intro > div {
 	margin-right: auto;
 }
 
-#team > div > div > div {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+.team-row {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-member {
+    padding: 20px;
 }
 
 .role {

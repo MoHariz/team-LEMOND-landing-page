@@ -17,27 +17,30 @@
     <!-- navbar section -->
     <header>
         <nav>
-            <span class="nav-item">Team LEMOND</span>
-            <ul>
-                <li>
-                    <a class="nav-item" href="#mission">Mission</a>
-                </li>
-                <li>
-                    <a class="nav-item" href="#project-overview">Overview</a>
-                </li>
-                <li>
-                    <a class="nav-item" href="#project-features">Features</a>
-                </li>
-                <li>
-                    <a class="nav-item" href="#technology-architecture">Architecture</a>
-                </li>
-                <li>
-                    <a class="nav-item" href="#partners">Partners</a>
-                </li>
-                <li>
-                    <a class="nav-item" href="#team">Team</a>
-                </li>
-            </ul>
+            <div class="nav-div">
+                <span class="left-nav">Team LEMOND</span>
+                
+                <ul class="right-nav" id="nav">
+                    <li>
+                        <a href="#mission">Mission</a>
+                    </li>
+                    <li>
+                        <a href="#project-overview">Overview</a>
+                    </li>
+                    <li>
+                        <a href="#project-features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#technology-architecture">Architecture</a>
+                    </li>
+                    <li>
+                        <a href="#partners">Partners</a>
+                    </li>
+                    <li>
+                        <a href="#team">Team</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -78,7 +81,7 @@
                     <img class="col" src="img/older-businesswoman-meeting-800x533_c.jpg" alt="Business woman in a meeting">
                 </figure>
                 <div class="mission-paragraph col-sm-12 col-lg-6">
-                    With our passion for social impact, our mission is to empower older, more experienced workers and promote age-friendly practices
+                    <strong class="with">With</strong> our passion for social impact, our mission is to empower older, more experienced workers and promote age-friendly practices
                     so they can provide age-friendly customer service and become age-friendly employers.   
                 </div>
             </div>  
@@ -94,7 +97,7 @@
         <div class="overview-div" data-aos="fade-up">
             <div class="row">
                 <img src="img/dot.svg" alt="dot icon">
-                <h4>Problem Statement</h4>
+                <h4 class="overview-subheader">Problem Statement</h4>
             </div>
             <div class="row">
                 <div class="overview">
@@ -112,7 +115,7 @@
         <div class="overview-div" data-aos="fade-up">
             <div class="row">
                 <img src="img/dot.svg" alt="dot icon">
-                <h4>Target User Groups/Audience</h4>
+                <h4 class="overview-subheader">Target User Groups/Audience</h4>
             </div>
             <div class="row">
                 <div class="overview">
@@ -162,7 +165,7 @@
         <div class="overview-div" data-aos="fade-up">
             <div class="row">
                 <img src="img/dot.svg" alt="dot icon">
-                <h4>Our Solution</h4>
+                <h4 class="overview-subheader">Our Solution</h4>
             </div>
             <div class="row">
                 <div class="overview">
@@ -271,9 +274,8 @@
         <h6 class="team-name-header">Team LEMOND</h6>
         <h2 class="section-header">Meet Our Team</h2>
         <hr class="line">
-        <div>
-            <div class="row" data-aos="fade-up">
-                <div class="team-member col-6">
+        <div class="team-row row">
+                <div class="team-member col-sm-12 col-md-6 col-lg-3">
                     <div class="image-cropper">
                         <img class="team-image" src="img/Davis-Huynh.jpg">
                     </div>
@@ -281,7 +283,7 @@
                     <br>
                     <span class="role">Front end developer</span>
                 </div>
-                <div class="team-member col-6">
+                <div class="team-member col-sm-12 col-md-6 col-lg-3">
                     <div class="image-cropper">
                         <img class="team-image" src="img/Estelle-Jiang.JPG">
                     </div>
@@ -289,9 +291,8 @@
                     <br>
                     <span class="role">UI/UX designer</span>
                 </div>
-            </div>
-            <div class="row" data-aos="fade-up">
-                <div class="team-member col-6">
+
+                <div class="team-member col-sm-12 col-md-6 col-lg-3">
                     <div class="image-cropper">
                         <img class="team-image" src="img/Liuyang-Fu.jpg">
                     </div>
@@ -299,7 +300,7 @@
                     <br>
                     <span class="role">Back end developer</span>
                 </div>
-                <div class="team-member col-6">
+                <div class="team-member col-sm-12 col-md-6 col-lg-3">
                     <div class="image-cropper">
                         <img class="team-image" src="img/Muhammad-Hariz.jpg">
                     </div>
@@ -307,12 +308,11 @@
                     <br>
                     <span class="role">Front end developer</span>
                 </div>
-            </div>
         </div>
     </div>
 
     <footer>
-        Made by Team LEMOND 2019 &#169;
+        Made with love by Team LEMOND 2019 &#169;
     </footer>
 
     
@@ -321,6 +321,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
